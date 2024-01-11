@@ -51,12 +51,12 @@ export default function BuscaPorCarros() {
         <BarraDePesquisa tamanho='lg' placeholder={'Pesquise por uma marca, modelo ou estilo de veículo...'}/>
         <p>Ou busque por nossas categorias...</p>
         <div className='grid'>
-            <CardCategoria imagem={"../../src/assets/categoria1.png"} to={"/"}>Sedãs</CardCategoria>
-            <CardCategoria imagem={"../../src/assets/categoria2.png"} to={"/"}>Hatchbacks</CardCategoria>
-            <CardCategoria imagem={"../../src/assets/categoria3.png"} to={"/"}>SUV's</CardCategoria>
-            <CardCategoria imagem={"../../src/assets/categoria4.png"} to={"/"}>Peruas</CardCategoria>
-            <CardCategoria imagem={"../../src/assets/categoria5.png"} to={"/"}>Esportivos</CardCategoria>
-            <CardCategoria imagem={"../../src/assets/categoria6.png"} to={"/"}>Clássicos</CardCategoria>
+            <CardCategoria imagem={"src/assets/categoria1.png"} to={"/"}>Sedãs</CardCategoria>
+            <CardCategoria imagem={"src/assets/categoria2.png"} to={"/"}>Hatchbacks</CardCategoria>
+            <CardCategoria imagem={"src/assets/categoria3.png"} to={"/"}>SUV's</CardCategoria>
+            <CardCategoria imagem={"src/assets/categoria4.png"} to={"/"}>Peruas</CardCategoria>
+            <CardCategoria imagem={"src/assets/categoria5.png"} to={"/"}>Esportivos</CardCategoria>
+            <CardCategoria imagem={"src/assets/categoria6.png"} to={"/"}>Clássicos</CardCategoria>
         </div>
     </BuscaPorCarrosEstilizada>
   )
